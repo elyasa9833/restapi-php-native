@@ -1,5 +1,4 @@
 <?php
-include('func.php');
 
 $image = null;
 if (isset($_FILES["image"]["name"])) {

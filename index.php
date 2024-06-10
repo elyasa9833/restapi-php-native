@@ -1,5 +1,6 @@
 <?php
 include('script/config.php');
+include('script/func.php');
 
 header("Content-Type:application/json");
 mysqli_set_charset($conn, 'utf8');

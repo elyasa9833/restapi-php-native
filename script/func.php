@@ -9,3 +9,10 @@ function generateRandomString($length = 20) {
     }
     return $randomString;
 }
+
+function requestInvalid(){
+    $results['Status']['code'] = 400;
+    $results['Status']['description'] = 'Request Invalid';
+    print_r(json_encode($results));
+    exit();
+}
